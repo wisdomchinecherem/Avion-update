@@ -1,0 +1,232 @@
+@media (max-width: 763px) {
+  .right-top-nav {
+    display: none;
+  }
+  .bottom-nav {
+    position: fixed !important;
+    flex-direction: column;
+    z-index: 200;
+    top: 0;
+    padding: 10px 20px;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    overflow: hidden !important;
+    box-shadow: 0 0 30px #00000049;
+    display: none;
+  }
+  .bottom-nav.show-nav {
+    display: inline-block;
+  }
+  .close--menu {
+    display: block;
+    font-size: 2rem;
+    text-align: end;
+    padding: 10px;
+  }
+  .responsive-nav {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .right-top-nav span a {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .right-top-nav img {
+    width: 40px;
+  }
+  .nav-parent-list {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: start;
+    font-size: 18px;
+  }
+  .menu {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+  }
+  .menu img {
+    width: 100%;
+    height: 100%;
+  }
+  .spare--search {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+  }
+  .spare--search img {
+    width: 100%;
+    height: 100%;
+  }
+  .Search--icon {
+    display: none;
+  }
+  .right-mobile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .top-nav {
+    border-bottom: none;
+    padding: 0;
+  }
+  #nav {
+    height: 69px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .hereo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .text-hereo {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .hereo-section img {
+    height: 304px;
+    width: 100%;
+  }
+  .hereo-section-container {
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 39px 30px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .hereo-section-container button {
+    padding: 16px 112px;
+  }
+  .footer--icons {
+    display: none;
+  }
+  .bottom-footer {
+    justify-content: center;
+  }
+}
+@media (max-width: 527px)  {
+  .bottom-nav {
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 695px) {
+  .heading-email-text {
+    text-wrap: nowrap;
+    font-size: 1.5rem;
+  }
+  .email-list span {
+    text-wrap: nowrap;
+  }
+  .email-list {
+    flex-direction: column;
+    align-items: start;
+  }
+  .email-sign-container {
+    align-items: start;
+  }
+  .email-sub-text {
+    text-align: start;
+    width: 100%;
+  }
+  .feature-input-container button {
+    text-wrap: nowrap;
+  }
+  .feature-input-container input {
+    width: 300px;
+  }
+}
+@media (max-width: 568px) {
+  .feature-input-container input {
+    width: 222px;
+    height: 56px;
+  }
+}
+@media (max-width: 678px) {
+  .feature-card {
+    width: 163;
+  }
+  .feature-card {
+    width: 100%;
+  }
+  .img-container {
+    width: 100%;
+  }
+  .light--small--text {
+    width: 100%;
+  }
+}
+@media (max-width: 520px) {
+  .two-column-way {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .product-btn {
+    padding: 0px 24px;
+  }
+  .product-card {
+    width: 100%;
+  }
+  .img-container img {
+    object-fit: cover;
+    object-position: center;
+  }
+  .heading-email-text {
+    text-wrap: wrap;
+  }
+  .feature-input-container {
+    width: 100%;
+  }
+  /* .feature-input-container {
+    gap: 16px;
+  } */
+  .feature-input-container input,
+  .feature-input-container button {
+    width: 100%;
+  }
+  .input-holder input {
+    width: 100%;
+  }
+  /* .input-holder {
+    flex-wrap: wrap;
+    gap: 16px;
+  } */
+  .email-sign-container {
+    padding: 20px;
+  }
+  .sub-text { 
+    width: 100%;
+  }
+  .button-hereo button {
+    text-wrap: nowrap;
+  }
+  .feature-card-text {
+    width: 100%;
+  }
+  .img-container-features img {
+    object-fit: cover;
+    object-position: center;
+  }
+  #right--footer {
+    width: 100%;
+  }
+  #footer {
+    padding-right: 20px;
+  }
+  #right--footer input,
+  button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup | Login</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css2?family"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="../STYLES/signup.css" />
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <div id="root">
+      <div class="sign-up--container">
+        <div class="left--page">
+          <p class="brand"><a href="../HTML/index.html">Avion</a></p>
+          <div class="input-page">
+            <form class="inputs">
+              <p class="text">Sign Up</p>
+              <div class="contain">
+                <div class="img-input"><img src="../images/Group.png" /></div>
+                <input type="email" placeholder="Your email" id="" />
+              </div>
+              <div class="contain">
+                <div class="img-input"><img src="../images/key.png" /></div>
+                <input type="password" placeholder="Password" id="" />
+              </div>
+              <div class="contain">
+                <div class="img-input"><img src="../images/key.png" /></div>
+                <input type="password" placeholder="Repeat Password" id="" />
+              </div>
+            </form>
+            <button class="login">Log In</button>
+            <p class="forgot"><a href="#">Forgot password</a></p>
+            <div class="divider">
+              <div></div>
+              <span>or</span>
+              <div></div>
+            </div>
+            <div class="buttons-link">
+              <button>
+                <div><img src="../images/Group 427320702.png" /></div>
+                <span>Google</span>
+              </button>
+              <button>
+                <div><img src="../images/XMLID_17_.png" /></div>
+                <span>Facebook</span>
+              </button>
+            </div>
+          </div>
+          <p class="dont-have-account-message">
+            Don't have an account? <a href="#">Sign Up</a>
+          </p>
+        </div>
+        <div class="right--page">
+          <img src="../images/Product Image.png" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var cursor = document.querySelector(".cursor");
+      var cursor2 = document.querySelector(".cursor2");
+
+      document.addEventListener("mousemove", (e) => {
+        cursor.style.cssText = cursor2.style.cssText =
+          "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+      });
+    </script>
+  </body>
+</html>

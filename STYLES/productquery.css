@@ -1,0 +1,119 @@
+@media (max-width: 928px) {
+  .side-nav {
+    display: none !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: white;
+    z-index: 100;
+    padding: 20px 30px;
+  }
+  .navigation-bar ul li {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .close-menu {
+    text-align: end;
+    cursor: pointer;
+    display: block;
+    padding-bottom: 30px;
+  }
+  .open-menu {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  .show-nav {
+    display: block !important;
+  }
+}
+@media (max-width: 417px) {
+  .button-displays {
+    flex-direction: column;
+  }
+  .button-displays button {
+    width: 100%;
+  }
+  .button-displays button:nth-child(2) {
+    background-color: #f0f0f0 !important;
+  }
+}
+@media (max-width: 487px) {
+  .side-nav {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1044px) {
+  .items-container {
+    flex-wrap: wrap;
+  }
+  .product-txt {
+    text-align: center;
+  }
+  .hereo-features {
+    flex-wrap: wrap;
+  }
+  .img-container-features {
+    width: 100%;
+  }
+  .text-side {
+    padding: 36px 24px;
+  }
+}
+@media (max-width: 679px) {
+  .feature-card {
+    width: 100%;
+  }
+  .product-container {
+    padding: 48px 24px;
+  }
+}
+
+@media (max-width: 889px) {
+  #footer {
+    padding: 40px 24px;
+  }
+  .footer-list .none {
+    display: none;
+  }
+}
+@media (max-width: 519px) {
+  .feature-input-container input {
+    width: 222px;
+  }
+  .feature-input-container button {
+    width: 120px;
+  }
+  .notification-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .delivery,
+  .close-alert,
+  .notification-text {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 743px) {
+  .top-footer {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 395px) {
+  .feature-input-container input {
+    width: 190px !important;
+  }
+}
+@media (max-width: 548px) {
+  .second-products {
+    flex-wrap: wrap;
+  }
+  .item {
+    width: 100%;
+  }
+}
