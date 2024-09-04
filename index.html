@@ -23,6 +23,14 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./STYLES/style.css" />
     <link rel="stylesheet" href="./STYLES/media.css" />
+
+    <style>
+      .contact-links {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+    </style>
   </head>
   <body>
     <!-- <div class="follower"></div> -->
@@ -42,12 +50,10 @@
         <div class="right-top-nav">
           <div class="top-nav-icon-container">
             <i
-              ><a href=""
-                ><img src="./images/Shopping--cart.svg" /></a
+              ><a href=""><img src="./images/Shopping--cart.svg" /></a
             ></i>
             <i
-              ><a href=""
-                ><img src="./images/User--avatar.svg" /></a
+              ><a href=""><img src="./images/User--avatar.svg" /></a
             ></i>
           </div>
         </div>
@@ -66,12 +72,10 @@
         <div class="right-top-nav responsive-nav">
           <div class="top-nav-icon-container">
             <i
-              ><a href=""
-                ><img src="./images/Shopping--cart.svg" /></a
+              ><a href=""><img src="./images/Shopping--cart.svg" /></a
             ></i>
             <i
-              ><a href=""
-                ><img src="./images/User--avatar.svg" /></a
+              ><a href=""><img src="./images/User--avatar.svg" /></a
             ></i>
           </div>
         </div>
@@ -79,12 +83,16 @@
     </nav>
     <!-- hereo -->
     <div class="hereo-section">
-      <img src="./images/Hero Backdrop.png" alt="" />
+      <img
+        src="./images/nescafe-banner.jpg"
+        style="object-fit: cover; object-position: center"
+        alt=""
+      />
       <div class="hereo-section-container">
         <p class="text-hereo">
-          Luxury homeware for people who love timeless design quality
+          Sweet beverage for people who love timeless quality
         </p>
-        <p class="sub-text">Shop the new Spring 2022 collection today</p>
+        <p class="sub-text">Shop the new Spring 2024 beverage today</p>
         <div class="button-hereo">
           <button>
             <a href="./HTML/productlisting.html">View collection</a>
@@ -182,7 +190,7 @@
     </div>
 
     <!-- hereo features -->
-    <div class="hereo-features">
+    <div id="text-container" class="hereo-features">
       <div class="text-container">
         <p class="text-top">It started with a small idea</p>
         <p class="light--small--text">
@@ -222,11 +230,15 @@
         <div id="left--footer">
           <ul>
             <li><a href="">Our company</a></li>
-            <li><a href="">About us</a></li>
+            <li><a href="#text-container">About us</a></li>
             <li><a href="">Vacancies</a></li>
-            <li><a href="">Contact us</a></li>
             <li><a href="">Privacy</a></li>
             <li><a href="">Returns policy</a></li>
+            <li class="contact-links">
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
           </ul>
         </div>
         <div id="right--footer">
